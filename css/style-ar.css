@@ -1,0 +1,88 @@
+
+.top_bar .contact >li > span
+{
+    margin-left: 9px;
+}
+.top_bar .contact >li:first-child
+{
+    margin-left: 20px;
+}
+.bootstrap-select .dropdown-toggle .filter-option
+{
+    text-align: right;
+}
+.bootstrap-select .dropdown-toggle .caret
+{
+    right: auto;
+}
+.bran_coins >li:not(:last-child)
+{
+    margin-left: 25px;
+}
+.lang > .dropdown-toggle
+{
+    text-align: right;
+}
+.lang .caret
+{
+    left: 0;
+}
+header .search_icon
+{
+    left: 20px;
+}
+.recomend >li:not(:last-child)
+{
+    margin-left: 20px;
+}
+header .main ul > li
+{
+    padding-left: 20px;
+}
+header .main ul > li > a.active:after
+{
+    right: 0;
+}
+.mob_bar #navbtn
+{
+	text-align: right;
+}
+.sidenav .closebtn
+{
+	left: 20px;
+}
+.sidenav
+{
+	right: -290px;
+}
+.sidenav.over_mob
+{
+	right: 0;
+}
+.pro_title:before
+{
+    right: 0;
+}
+.fe_icon
+{
+    margin-left: 16px;
+}
+.connect_info .form-group .check
+{
+    left: 18px;
+}
+
+
+
+/*sm*/
+@media (max-width:991px)	
+{
+    .fe_icon 
+    {
+       margin-left: 0;
+    }
+    .fast_links .sm_title:after
+	{
+		left: 20px;
+	}
+}
